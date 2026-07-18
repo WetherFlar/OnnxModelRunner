@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">ONNX 模型运行器</string>
+
+    <!-- 主界面 -->
+    <string name="main_title">ONNX 模型运行器</string>
+    <string name="main_subtitle">在 Android 设备上运行 ONNX 模型</string>
+    <string name="btn_image_model">图像处理模型</string>
+    <string name="btn_image_model_desc">图到图模型：超分辨率、去噪、风格迁移等</string>
+    <string name="btn_tts_model">TTS 语音合成模型</string>
+    <string name="btn_tts_model_desc">文本转语音模型：VITS、Kokoro 等</string>
+    <string name="btn_model_manager">模型管理</string>
+    <string name="btn_model_manager_desc">导入、查看、删除已保存的模型</string>
+    <string name="ort_version">ONNX Runtime 版本</string>
+
+    <!-- 模型管理 -->
+    <string name="model_manager_title">模型管理</string>
+    <string name="btn_import_model">导入模型</string>
+    <string name="btn_import_image_model">导入图像模型</string>
+    <string name="btn_import_tts_model">导入 TTS 模型</string>
+    <string name="empty_model_list">还没有导入任何模型\n点击下方按钮导入模型</string>
+    <string name="model_type_image">图像处理</string>
+    <string name="model_type_tts">语音合成</string>
+    <string name="dialog_delete_title">删除模型</string>
+    <string name="dialog_delete_message">确定要删除模型 \"%1$s\" 吗？此操作不可撤销。</string>
+    <string name="btn_confirm">确定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="toast_model_imported">模型导入成功</string>
+    <string name="toast_model_deleted">模型已删除</string>
+    <string name="toast_import_failed">导入失败</string>
+    <string name="toast_invalid_model">无效的 ONNX 模型文件</string>
+
+    <!-- 图像模型界面 -->
+    <string name="image_model_title">图像处理模型</string>
+    <string name="btn_select_model">选择模型</string>
+    <string name="btn_select_image">选择图片</string>
+    <string name="btn_run_inference">运行推理</string>
+    <string name="btn_save_result">保存结果</string>
+    <string name="label_input_image">输入图片</string>
+    <string name="label_output_image">输出图片</string>
+    <string name="label_inference_time">推理耗时</string>
+    <string name="label_model_info">模型信息</string>
+    <string name="hint_no_model">未选择模型</string>
+    <string name="hint_no_image">未选择图片</string>
+    <string name="hint_no_output">尚未运行推理</string>
+    <string name="toast_select_model_first">请先选择模型</string>
+    <string name="toast_select_image_first">请先选择图片</string>
+    <string name="toast_inference_done">推理完成</string>
+    <string name="toast_inference_failed">推理失败</string>
+    <string name="toast_image_saved">图片已保存到相册</string>
+    <string name="toast_save_failed">保存失败</string>
+    <string name="checkbox_use_nnapi">使用 NNAPI 硬件加速</string>
+
+    <!-- TTS 模型界面 -->
+    <string name="tts_model_title">TTS 语音合成</string>
+    <string name="hint_input_text">请输入要合成的文本…</string>
+    <string name="btn_generate_speech">生成语音</string>
+    <string name="btn_play_audio">播放</string>
+    <string name="btn_stop_audio">停止</string>
+    <string name="btn_save_audio">保存音频</string>
+    <string name="label_speaker_id">说话人 ID</string>
+    <string name="label_speed">语速</string>
+    <string name="label_sample_rate">采样率</string>
+    <string name="label_audio_duration">音频时长</string>
+    <string name="toast_generating">正在生成语音…</string>
+    <string name="toast_generate_done">语音生成完成</string>
+    <string name="toast_generate_failed">语音生成失败</string>
+    <string name="toast_audio_saved">音频已保存</string>
+    <string name="toast_input_empty">请输入文本</string>
+
+    <!-- 通用 -->
+    <string name="loading">加载中…</string>
+    <string name="error">错误</string>
+    <string name="permission_denied">权限被拒绝</string>
+    <string name="btn_close">关闭</string>
+</resources>
